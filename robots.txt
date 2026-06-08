@@ -1,0 +1,50 @@
+# Host-level robots.txt for carolinerusso.github.io
+# Keep the Ally email-dev preview out of search engines and LLM crawlers.
+# (Project-level robots.txt at /ally-eds-sfmc/ is ignored by crawlers — only
+#  the host-root file here is honored.)
+
+User-agent: *
+Disallow: /ally-eds-sfmc/
+
+# Major AI / LLM crawlers (explicit)
+User-agent: GPTBot
+Disallow: /ally-eds-sfmc/
+
+User-agent: ChatGPT-User
+Disallow: /ally-eds-sfmc/
+
+User-agent: OAI-SearchBot
+Disallow: /ally-eds-sfmc/
+
+User-agent: ClaudeBot
+Disallow: /ally-eds-sfmc/
+
+User-agent: Claude-Web
+Disallow: /ally-eds-sfmc/
+
+User-agent: anthropic-ai
+Disallow: /ally-eds-sfmc/
+
+User-agent: Google-Extended
+Disallow: /ally-eds-sfmc/
+
+User-agent: PerplexityBot
+Disallow: /ally-eds-sfmc/
+
+User-agent: CCBot
+Disallow: /ally-eds-sfmc/
+
+User-agent: Bytespider
+Disallow: /ally-eds-sfmc/
+
+User-agent: Amazonbot
+Disallow: /ally-eds-sfmc/
+
+User-agent: Applebot-Extended
+Disallow: /ally-eds-sfmc/
+
+User-agent: Meta-ExternalAgent
+Disallow: /ally-eds-sfmc/
+
+User-agent: cohere-ai
+Disallow: /ally-eds-sfmc/
